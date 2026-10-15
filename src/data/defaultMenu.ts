@@ -1,0 +1,52 @@
+import type { MenuItem } from '../types/menu.ts';
+
+export const DEFAULT_MENU: MenuItem[] = [
+  {
+    id: 'menu-risol-mayo-1',
+    name: 'Risol Mayo Super',
+    price: 4000,
+    category: 'gurih',
+    description: 'Kulit krispi dengan isian mayonaise creamy gurih spesial, potongan telur rebus dan smoked beef lezat. Digoreng hangat saat dipesan.',
+    image: '/images/food_risol_mayo_1792070156327.jpg',
+    isAvailable: true,
+    badge: 'Terlaris'
+  },
+  {
+    id: 'menu-cireng-rujak-2',
+    name: 'Cireng Bumbu Rujak',
+    price: 12000,
+    category: 'gurih',
+    description: 'Cireng renyah di luar kenyal empuk di dalam (1 porsi isi 10 pcs). Disajikan lengkap dengan sambal rujak asam manis pedas nikmat.',
+    image: '/images/food_cireng_rujak_1792070156706.jpg',
+    isAvailable: true,
+    badge: 'Favorit'
+  },
+  {
+    id: 'menu-dimsum-ayam-3',
+    name: 'Dimsum Ayam Jamur',
+    price: 15000,
+    category: 'gurih',
+    description: 'Dimsum kukus lembut dengan olahan daging ayam asli melimpah dan taburan jamur (1 porsi isi 4 pcs), ditemani saus asam manis pedas gurih.',
+    image: '/images/food_dimsum_ayam_1792070157223.jpg',
+    isAvailable: true,
+    badge: 'Rekomendasi'
+  },
+  {
+    id: 'menu-piscok-lumer-4',
+    name: 'Piscok Lumer Cokelat Keju',
+    price: 3500,
+    category: 'manis',
+    description: 'Pisang cokelat berbalut kulit lumpia krispi dengan lumuran cokelat premium yang lumer saat digigit dan taburan keju gurih.',
+    image: '/images/food_piscok_lumer_1792070157612.jpg',
+    isAvailable: true,
+    badge: 'Manis Gurih'
+  }
+];
+
+export const DEFAULT_SETTINGS = {
+  whatsappNumber: '6289620012837',
+  shopName: 'JAJANAN KAKANG',
+  shopTagline: 'Pilih jajanan favoritmu dan pesan langsung via WhatsApp!',
+  shopAddress: 'Perum Bumi Jaya Indah Purwakarta',
+  openHours: 'Buka Setiap Hari: 10.00 - 21.00 WIB',
+};

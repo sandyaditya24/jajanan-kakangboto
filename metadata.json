@@ -1,0 +1,8 @@
+{
+  "name": "Remix JAJANAN KAKANG - Menu Pesanan WhatsApp",
+  "description": "Katalog jajanan nikmat khas Indonesia. Pilih menu favorit, atur pesanan, dan checkout instan langsung terkirim ke WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
